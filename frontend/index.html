@@ -3,29 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <title>Online Whiteboard</title>
-
-    <!-- Link CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Header -->
-    <header>
-        <h1>Whiteboard</h1>
-        <p>Draw Something</p>
-    </header>
+<header>
+    <h1>Whiteboard</h1>
+    <p>Draw and express your ideas</p>
+</header>
 
-    <!-- Whiteboard Container -->
-    <div class="board-container">
-        <canvas id="whiteboard"></canvas>
-    </div>
+<!-- Toolbar -->
+<div class="toolbar">
+    <label>
+        Color:
+        <input type="color" id="colorPicker" value="#000000">
+    </label>
 
-    <!-- Controls -->
-    <div class="controls">
-        <button id="clearBtn">Clear Board</button>
-    </div>
+    <label>
+        Pen :
+        <select id="penSize">
+            <option value="2">Small</option>
+            <option value="4">Medium</option>
+            <option value="6">Large</option>
+        </select>
+    </label>
 
-    <!-- Link JavaScript -->
-    <script src="script.js"></script>
+    <button id="clearBtn">Clear</button>
+</div>
+
+<!-- Whiteboard -->
+<div class="board-container">
+    <canvas id="whiteboard"></canvas>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
