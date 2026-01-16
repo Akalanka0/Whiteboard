@@ -2,50 +2,68 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: "Segoe UI", Arial, sans-serif;
 }
 
 body {
-    background: #f4f6f8;
-    color: #333;
+    background: #f1f5f9;
+    color: #1e293b;
 }
 
 /* Header */
 header {
-    text-align: center;
-    padding: 15px;
-    background: #1f2933;
+    background: #0f172a;
     color: white;
+    padding: 16px;
+    text-align: center;
+}
+
+/* Toolbar */
+.toolbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background: white;
+    padding: 12px;
+    margin: 15px auto;
+    width: fit-content;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+label {
+    font-size: 14px;
+}
+
+select, input[type="color"] {
+    margin-left: 6px;
+    padding: 4px;
+}
+
+/* Buttons */
+button {
+    padding: 8px 16px;
+    border: none;
+    background: #2563eb;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
 }
 
 /* Whiteboard */
 .board-container {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 canvas {
     background: white;
-    border: 2px solid #ccc;
-    border-radius: 8px;
-}
-
-/* Controls */
-.controls {
-    text-align: center;
-    margin-top: 15px;
-}
-
-button {
-    padding: 10px 20px;
-    background: #2563eb;
-    color: white;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-}
-
-button:hover {
-    background: #1e40af;
+    border-radius: 10px;
+    border: 2px solid #cbd5e1;
 }
