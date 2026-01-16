@@ -1,0 +1,132 @@
+📄 PROJECT PROPOSAL
+Project Title
+
+Design and Implementation of a Distributed Online Whiteboard System Using Docker, Kubernetes, and Microsoft Azure
+
+1. Introduction
+
+With the growth of online learning and remote collaboration, digital tools have become essential for effective communication. One such tool is an online whiteboard, which allows users to visually express ideas through drawings and sketches.
+
+This project proposes the development of a web-based Online Whiteboard System implemented as a distributed software application. The system uses containerization and cloud technologies to ensure scalability, reliability, and easy deployment.
+
+2. Problem Statement
+
+Traditional physical whiteboards are limited to physical locations and cannot be accessed remotely. Existing online whiteboard tools are often complex, expensive, or require high system resources.
+
+There is a need for a simple, lightweight, and scalable online whiteboard system that demonstrates modern distributed software and cloud computing techniques suitable for educational use.
+
+3. Objectives
+
+The main objectives of this project are:
+
+To design and develop a web-based online whiteboard
+
+To apply distributed software system principles
+
+To containerize application components using Docker
+
+To manage and deploy services using Kubernetes
+
+To deploy the system on Microsoft Azure Free Tier
+
+To demonstrate software architecture and data management techniques
+
+4. Scope of the Project
+
+The scope of this project includes:
+
+A browser-based whiteboard interface using HTML Canvas
+
+A backend API to save and retrieve whiteboard data
+
+A database to store drawing data
+
+Containerized deployment using Docker
+
+Service orchestration using Kubernetes
+
+Cloud deployment using Azure Virtual Machines or AKS
+
+The project does not include advanced features such as real-time multi-user collaboration or authentication.
+
+5. Proposed System Description
+
+The Online Whiteboard System consists of three main components:
+
+5.1 Frontend
+
+Provides a user interface where users can draw using mouse interactions. The interface communicates with the backend through REST APIs.
+
+5.2 Backend
+
+Handles requests such as saving and loading whiteboard drawings. It processes data and communicates with the database.
+
+5.3 Database
+
+Stores whiteboard drawing data in structured format for later retrieval.
+
+Each component runs as an independent service, forming a distributed system.
+
+6. Distributed Software Techniques Used
+
+Service-oriented design
+
+REST-based inter-service communication
+
+Loose coupling between system components
+
+Independent deployment of services
+
+Horizontal scalability using Kubernetes
+
+7. Software Architecture
+
+The system follows a layered and container-based architecture:
+
+Presentation Layer → Frontend
+Application Layer → Backend API
+Data Layer → Database
+
+
+Additionally, Kubernetes is used to orchestrate containers, providing load balancing, scaling, and fault tolerance.
+
+8. Data Management / Data Warehousing Concepts
+
+Drawing data is captured in JSON format
+
+Data is stored centrally in a database
+
+Historical whiteboard sessions are preserved
+
+Backend APIs enable structured data retrieval
+
+Concepts such as data persistence and organization are applied
+
+9. Tools and Technologies
+Category	Technology
+Frontend	HTML, CSS, JavaScript
+Backend	Node.js / Python Flask
+Database	MongoDB
+Containerization	Docker
+Orchestration	Kubernetes
+Cloud Platform	Microsoft Azure
+Version Control	Git
+10. Expected Outcomes
+
+A working online whiteboard web application
+
+Demonstration of distributed system behavior
+
+Successful deployment using Docker and Kubernetes
+
+Cloud-hosted application using Azure
+
+Improved understanding of cloud-native development
+
+11. Conclusion
+
+This project demonstrates the practical implementation of a distributed software system using modern technologies. By integrating Docker, Kubernetes, and Microsoft Azure, the proposed system showcases scalable and maintainable software architecture suitable for educational and real-world applications.
+
+12. Keywords
+
+Distributed Systems, Docker, Kubernetes, Cloud Computing, Software Architecture, Online Whiteboard, Microsoft Azure, Windows

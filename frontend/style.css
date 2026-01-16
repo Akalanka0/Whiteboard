@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f6f8;
+    color: #333;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 15px;
+    background: #1f2933;
+    color: white;
+}
+
+/* Whiteboard */
+.board-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+canvas {
+    background: white;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+/* Controls */
+.controls {
+    text-align: center;
+    margin-top: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1e40af;
+}
